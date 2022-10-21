@@ -19,8 +19,8 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #070680;
-  --color-secondary: #f85a40;
+  --color-primary: #00007d;
+  --color-secondary: #be801e;
 }
 
 /* Smooth scroll behavior */
@@ -42,7 +42,7 @@ a {
 }
 
 a:hover {
-  color: #00b6a1;
+  color: var(--color-secondary);
   text-decoration: none;
 }
 
@@ -1029,10 +1029,6 @@ section {
   color: var(--color-primary);
 }
 
-.services .service-item:hover .icon:before {
-  background: #00b6a1;
-}
-
 .services .service-item:hover h3 {
   border-color: var(--color-primary);
 }
@@ -1324,10 +1320,6 @@ section {
   color: #fff;
   border-radius: 50px;
   transition: 0.3s;
-}
-
-.portfolio-details .portfolio-info .btn-visit:hover {
-  background: #009d8b;
 }
 
 .portfolio-details .portfolio-description h2 {
