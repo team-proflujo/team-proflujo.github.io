@@ -800,6 +800,10 @@ section {
   background-color: var(--color-primary);
 }
 
+.swiper-wrapper {
+  width: 22%;
+}
+
 /*--------------------------------------------------------------
 # Stats Counter Section
 --------------------------------------------------------------*/
