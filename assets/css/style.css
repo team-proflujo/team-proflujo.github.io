@@ -90,7 +90,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgb(79 78 144);
+  background: rgb(14 13 104);
 }
 
 #header .logo h1 {
@@ -386,7 +386,7 @@ h6 {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
-  display: inline-block;
+  display: none;
   padding: 12px 32px;
   border-radius: 50px;
   transition: 0.5s;
