@@ -1757,11 +1757,80 @@ section {
   color: #fff;
 }
 
+.contact .info-social {
+  width: 100%;
+  background-color: #2e2d83;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
 .contact .info-item:last-child {
   margin-bottom: 0;
 }
 
 .contact .info-item i {
+
+  font-size: 20px;
+  color: #fff;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 15px;
+}
+.bi-twitter {
+
+ font-size: 20px;
+  color: #fff;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 15px;
+}
+.bi-facebook {
+  
+  font-size: 20px;
+  color: #fff;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 15px;
+}
+.bi-instagram {
+
+  font-size: 20px;
+  color: #fff;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 15px;
+}
+.bi-linkedin {
+   
   font-size: 20px;
   color: #fff;
   float: left;
@@ -1790,6 +1859,23 @@ section {
 }
 
 .contact .info-item:hover i {
+  background: #fff;
+  color: var(--color-primary);
+}
+
+.contact .ut:hover i {
+  background: #fff;
+  color: var(--color-primary);
+}
+.contact .uf:hover i {
+  background: #fff;
+  color: var(--color-primary);
+}
+.contact .us:hover i {
+  background: #fff;
+  color: var(--color-primary);
+}
+.contact .ul:hover i {
   background: #fff;
   color: var(--color-primary);
 }
